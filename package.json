@@ -6,10 +6,12 @@
     "axis": "0.3.x",
     "coffee-script": "1.8.x",
     "css-pipeline": "0.2.x",
+    "dynamic-content": "^0.3.0",
     "jade": "1.x",
     "js-pipeline": "0.2.x",
     "marked": "0.3.x",
     "roots": "^3.0.0",
+    "roots-collections": "^0.3.3",
     "rupture": "0.6.x",
     "stylus": "0.49.x"
   }
