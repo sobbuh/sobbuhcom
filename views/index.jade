@@ -1,9 +1,9 @@
 extends layout
 
 block content
-  h3 Sobbuh.com
+  h3 Hi, My name is Sobbuh
   :markdown
-    Welcome to my site
+    Welcome to my site! Learn more about me or just read some of my thoughts.
 
   .recent-posts-listing
     each post in posts.orderBy('date', 'desc').slice(0, 10)
