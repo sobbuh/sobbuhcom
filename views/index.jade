@@ -4,3 +4,9 @@ block content
   h3 Sobbuh.com
   :markdown
     Welcome to my site
+
+.recent-posts-listing
+  each post in posts.orderBy('date', 'desc').slice(0, 10)
+    h3.title
+      a.post-title(href=post.permalink)= post.title
+    .body!= post.body
