@@ -1,7 +1,8 @@
 extends layout
 
 block content
-  h4 Hi, My name is Sobbuh
+  h4 Hi, My name is Sobbuh. 
+  h6 This website contains some of my thoughts. 
 
   .recent-posts-listing
     each post in posts.orderBy('date', 'desc').slice(0, 10)
