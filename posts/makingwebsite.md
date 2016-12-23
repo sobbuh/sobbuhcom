@@ -3,18 +3,13 @@ title: Making this website
 desc: Making this website
 ---
   
-This website is hosted for free on [netlify](https://www.netlify.com). It uses [roots](http://www.roots.cx) hosted on github. 
+This website is hosted for free on [netlify](https://www.netlify.com). It uses [roots](http://www.roots.cx) hosted on github. This produces a static website that is quick to load and allows me to make posts through a text editor. It's okay. I might change it. Or add a CMS like contentful.  
+I'm using [milligram](http://milligram.github.io) as the CMS.  
+  
 
-For other projects I use:    
-  
-[namecheap](https://www.namecheap.com/) as a domain registrar
-Their website is fast and easy to use. Support is very fast. In general, it's much better than any other registrar I've used. Prices are generally the same between registrars.  
-  
-[domainr](http://domai.nr) to find domain names  
-  
-[digital ocean](http://www.digitalocean.com) for hosting  
-  
-[shopify](http://www.shopify.com) for ecommerce sites  
-  
+
+
+
+
 
 

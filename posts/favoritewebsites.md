@@ -9,5 +9,7 @@ Content
   
 Useful  
 [Upwork](www.upwork.com)  
+[Udacity](www.udacity.com)
 
 
+Have a recommendation? Email me! hello@sobbuh.com

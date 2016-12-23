@@ -1,19 +1,6 @@
-doctype html
-html
+extends layout
 
-  head
-    meta(charset='utf8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-    meta(name='description', content='description of your site')
-    meta(name='author', content= "author of the site")
-    //- uncomment if your site is responsive!
-    //- meta(name="viewport" content="width=device-width, initial-scale=1")
-    title= "sobbuh on " + entry.title
-    link(rel='stylesheet', href='/css/master.css')
+block content  
+  h3.title= entry.title
+  .post-body!= entry.body
 
-  body
-    a(href='http://www.sobbuh.com') back to homepage
-    h5.title= entry.title
-    .post-body!= entry.body
-
-    != js()
