@@ -8,4 +8,4 @@ block content
     each post in posts.orderBy('date', 'desc').slice(0, 10)
       h6.title
         a.post-title(href=post.permalink)= post.title
-      p.date
+        p.date
