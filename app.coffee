@@ -13,7 +13,7 @@ module.exports =
   extensions: [
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl'),
-    collections(folder: 'posts', layout: 'post'),
+    collections(folder: 'thoughts', layout: 'post'),
     dynamic_content()
   ]
 
